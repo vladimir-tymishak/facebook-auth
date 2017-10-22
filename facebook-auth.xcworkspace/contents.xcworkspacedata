@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:facebook-auth.xcodeproj">
+      location = "group:/Users/vladimirtymishak/Git/_own/facebook-auth/FB Auth.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

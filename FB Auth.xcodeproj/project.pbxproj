@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BC5BC8651F9D0D1A00C93210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BC8641F9D0D1A00C93210 /* AppDelegate.swift */; };
-		BC5BC8671F9D0D1A00C93210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BC8661F9D0D1A00C93210 /* ViewController.swift */; };
-		BC5BC86A1F9D0D1A00C93210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BC8681F9D0D1A00C93210 /* Main.storyboard */; };
-		BC5BC86C1F9D0D1A00C93210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5BC86B1F9D0D1A00C93210 /* Assets.xcassets */; };
-		BC5BC86F1F9D0D1A00C93210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5BC86D1F9D0D1A00C93210 /* LaunchScreen.storyboard */; };
+		BC82A7671F9D132600AAFFE1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A7661F9D132600AAFFE1 /* SignUpViewController.swift */; };
+		BC82A76A1F9D133C00AAFFE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A7691F9D133C00AAFFE1 /* ProfileViewController.swift */; };
+		BC82A76E1F9D135D00AAFFE1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A76D1F9D135D00AAFFE1 /* User.swift */; };
+		BC82A7751F9D17BE00AAFFE1 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC82A7741F9D17BE00AAFFE1 /* SignUpViewModel.swift */; };
+		BC82A77B1F9D229900AAFFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC82A7771F9D229900AAFFE1 /* Assets.xcassets */; };
+		BC82A77C1F9D229900AAFFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC82A7781F9D229900AAFFE1 /* LaunchScreen.storyboard */; };
+		BC82A77D1F9D229900AAFFE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC82A77A1F9D229900AAFFE1 /* Info.plist */; };
 		EFC71265DF7D5E8EF24F4077 /* Pods_facebook_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718617273A7B1FEB6C4B967 /* Pods_facebook_auth.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +22,13 @@
 		A718617273A7B1FEB6C4B967 /* Pods_facebook_auth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_facebook_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5BC8611F9D0D1A00C93210 /* facebook-auth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-auth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5BC8641F9D0D1A00C93210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC5BC8661F9D0D1A00C93210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC5BC8691F9D0D1A00C93210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC5BC86B1F9D0D1A00C93210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC5BC86E1F9D0D1A00C93210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC5BC8701F9D0D1A00C93210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC82A7661F9D132600AAFFE1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BC82A7691F9D133C00AAFFE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BC82A76D1F9D135D00AAFFE1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BC82A7741F9D17BE00AAFFE1 /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		BC82A7771F9D229900AAFFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC82A7791F9D229900AAFFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC82A77A1F9D229900AAFFE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1D06EB5C8668218F615D098 /* Pods-facebook-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-auth.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-auth/Pods-facebook-auth.release.xcconfig"; sourceTree = "<group>"; };
 		F783A01EB4EA10B4150D13AE /* Pods-facebook-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-auth/Pods-facebook-auth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,14 +74,80 @@
 		BC5BC8631F9D0D1A00C93210 /* facebook-auth */ = {
 			isa = PBXGroup;
 			children = (
-				BC5BC8641F9D0D1A00C93210 /* AppDelegate.swift */,
-				BC5BC8661F9D0D1A00C93210 /* ViewController.swift */,
-				BC5BC8681F9D0D1A00C93210 /* Main.storyboard */,
-				BC5BC86B1F9D0D1A00C93210 /* Assets.xcassets */,
-				BC5BC86D1F9D0D1A00C93210 /* LaunchScreen.storyboard */,
-				BC5BC8701F9D0D1A00C93210 /* Info.plist */,
+				BC82A7621F9D12CF00AAFFE1 /* App */,
+				BC82A76B1F9D134300AAFFE1 /* Classes */,
+				BC82A7761F9D229900AAFFE1 /* Supported Files */,
 			);
 			path = "facebook-auth";
+			sourceTree = "<group>";
+		};
+		BC82A7621F9D12CF00AAFFE1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BC5BC8641F9D0D1A00C93210 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BC82A7641F9D12EB00AAFFE1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A7681F9D132A00AAFFE1 /* Profile */,
+				BC82A7651F9D12FD00AAFFE1 /* Sign Up */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC82A7651F9D12FD00AAFFE1 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A7661F9D132600AAFFE1 /* SignUpViewController.swift */,
+				BC82A7731F9D17BE00AAFFE1 /* ViewModel */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		BC82A7681F9D132A00AAFFE1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A7691F9D133C00AAFFE1 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BC82A76B1F9D134300AAFFE1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A76C1F9D135000AAFFE1 /* Models */,
+				BC82A7641F9D12EB00AAFFE1 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC82A76C1F9D135000AAFFE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A76D1F9D135D00AAFFE1 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC82A7731F9D17BE00AAFFE1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A7741F9D17BE00AAFFE1 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC82A7761F9D229900AAFFE1 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC82A7771F9D229900AAFFE1 /* Assets.xcassets */,
+				BC82A7781F9D229900AAFFE1 /* LaunchScreen.storyboard */,
+				BC82A77A1F9D229900AAFFE1 /* Info.plist */,
+			);
+			path = "Supported Files";
 			sourceTree = "<group>";
 		};
 		F7CED9965D32A0764AA937FF /* Pods */ = {
@@ -127,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BC5BC85C1F9D0D1A00C93210 /* Build configuration list for PBXProject "facebook-auth" */;
+			buildConfigurationList = BC5BC85C1F9D0D1A00C93210 /* Build configuration list for PBXProject "FB Auth" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,9 +221,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5BC86F1F9D0D1A00C93210 /* LaunchScreen.storyboard in Resources */,
-				BC5BC86C1F9D0D1A00C93210 /* Assets.xcassets in Resources */,
-				BC5BC86A1F9D0D1A00C93210 /* Main.storyboard in Resources */,
+				BC82A77B1F9D229900AAFFE1 /* Assets.xcassets in Resources */,
+				BC82A77C1F9D229900AAFFE1 /* LaunchScreen.storyboard in Resources */,
+				BC82A77D1F9D229900AAFFE1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +302,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5BC8671F9D0D1A00C93210 /* ViewController.swift in Sources */,
+				BC82A7671F9D132600AAFFE1 /* SignUpViewController.swift in Sources */,
+				BC82A76A1F9D133C00AAFFE1 /* ProfileViewController.swift in Sources */,
+				BC82A7751F9D17BE00AAFFE1 /* SignUpViewModel.swift in Sources */,
+				BC82A76E1F9D135D00AAFFE1 /* User.swift in Sources */,
 				BC5BC8651F9D0D1A00C93210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,18 +313,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC5BC8681F9D0D1A00C93210 /* Main.storyboard */ = {
+		BC82A7781F9D229900AAFFE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC5BC8691F9D0D1A00C93210 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BC5BC86D1F9D0D1A00C93210 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC5BC86E1F9D0D1A00C93210 /* Base */,
+				BC82A7791F9D229900AAFFE1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -372,7 +438,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8RYG9Z8Z6K;
-				INFOPLIST_FILE = "facebook-auth/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/facebook-auth/Supported Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.own.facebook-auth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,7 +455,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8RYG9Z8Z6K;
-				INFOPLIST_FILE = "facebook-auth/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/facebook-auth/Supported Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.own.facebook-auth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC5BC85C1F9D0D1A00C93210 /* Build configuration list for PBXProject "facebook-auth" */ = {
+		BC5BC85C1F9D0D1A00C93210 /* Build configuration list for PBXProject "FB Auth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC5BC8711F9D0D1A00C93210 /* Debug */,
