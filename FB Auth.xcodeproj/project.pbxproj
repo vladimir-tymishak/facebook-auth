@@ -15,6 +15,11 @@
 		BC82A77B1F9D229900AAFFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC82A7771F9D229900AAFFE1 /* Assets.xcassets */; };
 		BC82A77C1F9D229900AAFFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC82A7781F9D229900AAFFE1 /* LaunchScreen.storyboard */; };
 		BC82A77D1F9D229900AAFFE1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC82A77A1F9D229900AAFFE1 /* Info.plist */; };
+		BC9C8C601F9DBA030075B48D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C8C5F1F9DBA030075B48D /* ProfileViewModel.swift */; };
+		BC9C8C641F9DBAFE0075B48D /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C8C631F9DBAFE0075B48D /* UserController.swift */; };
+		BC9C8C661F9DBB960075B48D /* UserStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C8C651F9DBB960075B48D /* UserStorageProtocol.swift */; };
+		BC9C8C681F9DBBE90075B48D /* UserDefaults+UserStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C8C671F9DBBE90075B48D /* UserDefaults+UserStorageProtocol.swift */; };
+		BC9C8C6D1F9DC1E30075B48D /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C8C6C1F9DC1E30075B48D /* UIImageView+Load.swift */; };
 		EFC71265DF7D5E8EF24F4077 /* Pods_facebook_auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718617273A7B1FEB6C4B967 /* Pods_facebook_auth.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +34,11 @@
 		BC82A7771F9D229900AAFFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC82A7791F9D229900AAFFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC82A77A1F9D229900AAFFE1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9C8C5F1F9DBA030075B48D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		BC9C8C631F9DBAFE0075B48D /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		BC9C8C651F9DBB960075B48D /* UserStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorageProtocol.swift; sourceTree = "<group>"; };
+		BC9C8C671F9DBBE90075B48D /* UserDefaults+UserStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+UserStorageProtocol.swift"; sourceTree = "<group>"; };
+		BC9C8C6C1F9DC1E30075B48D /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
 		F1D06EB5C8668218F615D098 /* Pods-facebook-auth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-auth.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-auth/Pods-facebook-auth.release.xcconfig"; sourceTree = "<group>"; };
 		F783A01EB4EA10B4150D13AE /* Pods-facebook-auth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-auth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-auth/Pods-facebook-auth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				BC82A7691F9D133C00AAFFE1 /* ProfileViewController.swift */,
+				BC9C8C5E1F9DB9F00075B48D /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -118,6 +129,8 @@
 		BC82A76B1F9D134300AAFFE1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BC9C8C691F9DBDB10075B48D /* Categories */,
+				BC9C8C611F9DBAE30075B48D /* Controllers */,
 				BC82A76C1F9D135000AAFFE1 /* Models */,
 				BC82A7641F9D12EB00AAFFE1 /* ViewControllers */,
 			);
@@ -148,6 +161,56 @@
 				BC82A77A1F9D229900AAFFE1 /* Info.plist */,
 			);
 			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		BC9C8C5E1F9DB9F00075B48D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC9C8C5F1F9DBA030075B48D /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC9C8C611F9DBAE30075B48D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC9C8C621F9DBAF20075B48D /* UserController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BC9C8C621F9DBAF20075B48D /* UserController */ = {
+			isa = PBXGroup;
+			children = (
+				BC9C8C631F9DBAFE0075B48D /* UserController.swift */,
+				BC9C8C651F9DBB960075B48D /* UserStorageProtocol.swift */,
+			);
+			path = UserController;
+			sourceTree = "<group>";
+		};
+		BC9C8C691F9DBDB10075B48D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BC9C8C6B1F9DC1BF0075B48D /* UIImageView */,
+				BC9C8C6A1F9DBDB90075B48D /* UserDefaults */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BC9C8C6A1F9DBDB90075B48D /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				BC9C8C671F9DBBE90075B48D /* UserDefaults+UserStorageProtocol.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		BC9C8C6B1F9DC1BF0075B48D /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				BC9C8C6C1F9DC1E30075B48D /* UIImageView+Load.swift */,
+			);
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 		F7CED9965D32A0764AA937FF /* Pods */ = {
@@ -302,10 +365,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9C8C601F9DBA030075B48D /* ProfileViewModel.swift in Sources */,
 				BC82A7671F9D132600AAFFE1 /* SignUpViewController.swift in Sources */,
+				BC9C8C6D1F9DC1E30075B48D /* UIImageView+Load.swift in Sources */,
+				BC9C8C661F9DBB960075B48D /* UserStorageProtocol.swift in Sources */,
 				BC82A76A1F9D133C00AAFFE1 /* ProfileViewController.swift in Sources */,
 				BC82A7751F9D17BE00AAFFE1 /* SignUpViewModel.swift in Sources */,
+				BC9C8C641F9DBAFE0075B48D /* UserController.swift in Sources */,
 				BC82A76E1F9D135D00AAFFE1 /* User.swift in Sources */,
+				BC9C8C681F9DBBE90075B48D /* UserDefaults+UserStorageProtocol.swift in Sources */,
 				BC5BC8651F9D0D1A00C93210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

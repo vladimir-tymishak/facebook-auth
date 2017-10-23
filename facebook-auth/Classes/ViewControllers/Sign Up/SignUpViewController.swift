@@ -22,11 +22,12 @@ class SignUpViewController: UIViewController {
         return button
     }()
     
-    fileprivate var viewModel: SignUpViewModel = SignUpViewModel()
+    fileprivate var viewModel: SignUpViewModel
     
     // MARK: - Init
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    init(viewModel: SignUpViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -77,6 +78,7 @@ extension SignUpViewController: SignUpViewModelDelegate {
             showError(with: SignUpError.badUser.text)
             return
         }
-        print(user.description)
+        UserController.instance.user = user
+        AppDelegate.instance.launch(isAuthorized: true)
     }
 }
